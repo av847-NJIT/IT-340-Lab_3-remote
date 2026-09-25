@@ -1,0 +1,37 @@
+commit 0e140b933acc951100ac93bf06837a8e815b5dc1
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 18:33:37 2026 -0400
+
+    Added tar file and history file for Lab 3
+
+commit d70d608034890eb11bb5f0e4303ed2d688ea75d2
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 18:12:20 2026 -0400
+
+    Created git-log-output file
+
+commit b2a5837649379867f1ef0da584a943c819b7cb9b
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 18:08:51 2026 -0400
+
+    Revert "Added two comments to hostname file for the sake of part 7 of lab 3."
+    
+    This reverts commit 8b1a7de571472e163d8fb4e2a29fa2e676fd1bc3.
+
+commit 8b1a7de571472e163d8fb4e2a29fa2e676fd1bc3
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 18:05:15 2026 -0400
+
+    Added two comments to hostname file for the sake of part 7 of lab 3.
+
+commit 389454e518129fd2a7de9b49f491e23e9082e242
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 17:38:57 2026 -0400
+
+    Added a couple of comments to os-release files
+
+commit c15b78a20e0a83e65ad458db8c6afce9ca0d2e7f
+Author: Angel Vera <av847@njit.edu>
+Date:   Fri Sep 25 17:29:41 2026 -0400
+
+    First commit for Lab 3 (IT340)
