@@ -85,114 +85,37 @@
    85  exit
    86  exit
    87  exit
-   88  ~/
-   89  cd ..
-   90  cd
-   91  cd ..
-   92  ls
-   93  cd etc
-   94  ls
-   95  cat passwd
-   96  cat group
-   97  cat hostname
-   98  cat os-release
-   99  cd /sys
-  100  ls
-  101  cat kernel
-  102  cd kernel
-  103  cd /debug/multigrain_timestamps
+   88  cd ls
+   89  cd Lab_3
+   90  git statis
+   91  git status
+   92  git checkout experimental
+   93  git status
+   94  git log
+   95  ls
+   96  cat git-log-output 
+   97  git --no-paper log >git-log-output
+   98  git --no-pager log >git-log-output
+   99  cat git-log-output 
+  100  git status
+  101  git add .
+  102  git commit
+  103  git status
   104  ls
-  105  cd debug
-  106  sudo cat debug
-  107  cd debug
-  108  sudo cd debug
-  109  sudo -i
-  110  cd ..
-  111  cd home
-  112  ls
-  113  cd angel
-  114  ls
-  115  cd desktop
-  116  cd Desktop
-  117  mkdir Lab_3
+  105  rm av847_IT340_Lab3.tar.gz 
+  106  rm history2.txt 
+  107  tar -czvf av847_IT340_Lab3.tar.gz
+  108  tar -czvf av847_IT340_Lab3.tar.gz Lab_3
+  109  ls
+  110  rm archive.tar
+  111  rm archive.tar.gz
+  112  rm av847_IT340_Lab3.tar.gz 
+  113  ls
+  114  tar -czvf av847_IT340_Lab3.tar.gz
+  115  tar -czvf av847_IT340_Lab3.tar.gz Lab_3
+  116  ls
+  117  cat av847_IT340_Lab3.tar.gz 
   118  ls
-  119  cd Lab_3
-  120  cp passwd
-  121  cp /etc/ passwd
-  122  ls
-  123  cp passwd group hostname os-release multigrain_timestamps Lab_3/
-  124  cp passwd group hostname os-release multigrain_timestamps Lab_3
-  125  pwd
-  126  cp /etc/passwd /etc/group /etc/hostname /etc/os-release /sys/kernel/debug/multigrain_timestamps .
-  127  ls
-  128  sudo cp -a /sys/kernel/debug/multigrain_timestamps
-  129  ls
-  130  sudo cp -a /sys/kernel/debug/multigrain_timestamps .
-  131  ls
-  132  cat multigrain_timestamps
-  133  ls
-  134  git --version
-  135  git config --global user.name "Angel Vera"
-  136  git config --global user.email av847@njit.edu
-  137  pwd
-  138  git init
-  139  ls
-  140  git add group
-  141  git add hostname
-  142  git multigrain_timestamps 
-  143  git add multigrain_timestamps 
-  144  git add os-release
-  145  git add passwd
-  146  git status
-  147  git commit
-  148  git status
-  149  git log
-  150  git checkout -b experimental
-  151  git status
-  152  git branch
-  153  nano multigrain_timestamps 
-  154  nano os-release 
-  155  git status
-  156  git add .
-  157  git status
-  158  git commit 
-  159  git status
-  160  git log
-  161  ssh-keygen -t ed25519 -C "av847@njit.edu"
-  162  cat ~/.ssh/id_ed25519.pub
-  163  git remote add origin git@github.com:av847-NJIT/IT-340-Lab_3-remote.git
-  164  git status
-  165  git push experimental
-  166  git push origin experimental
-  167  git checkout master
-  168  git status
-  169  git push origin master
-  170  git checkout experimental
-  171  git status
-  172  ls
-  173  nano group
-  174  nano hostname
-  175  git status
-  176  git add 
-  177  git add .
-  178  git status
-  179  git commit 
-  180  git status
-  181  git log
-  182  git push origin experimental
-  183  git revert experimental
-  184  git log
-  185  git log | git-log-output
-  186  git log |touch git-log-output
-  187  ls
-  188  git status
-  189  git add .
-  190  git commit 
-  191  git status
-  192  ls
-  193  tar -czvf Lab_3_archive.tar.gz /home/angel/Desktop/
-  194  ls
-  195  mv Lab_3_archive.tar.gz av847_IT340_Lab3.tar.gz 
-  196  ls
-  197  cat av847_IT340_Lab3.tar.gz 
-  198  history > history.txt
+  119  cat av847_IT340_Lab3.tar.gz 
+  120  nano av847_IT340_Lab3.tar.gz 
+  121  history > history2.txt
